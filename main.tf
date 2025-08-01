@@ -59,3 +59,6 @@ resource "azurerm_linux_virtual_machine" "vm" {
     version   = "latest"
   }
 }
+azurerm_resource_group{
+  name = "rg"
+}
